@@ -1,0 +1,4 @@
+Change Component Comment : Designator=IN BOOST Old Comment=Banana Jack Red New Comment=MAX 10V
+Change Component Comment : Designator=IN BUCK Old Comment=Banana Jack Red New Comment=MAX 10V
+Change Component Description : Designator=IN BOOST Old Description=Socket New Description=Banana Jack Red
+Change Component Description : Designator=IN BUCK Old Description=Socket New Description=Banana Jack Red

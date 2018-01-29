@@ -1,0 +1,117 @@
+Removed Member From Class: ClassName=EK2_SMPS Member=D3
+Change Component Designator: OldDesignator=D2 NewDesignator=Dboot
+Change Component Designator: OldDesignator=D3 NewDesignator=D2
+Added Component: Designator=C1(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C5(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C6(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C7(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=Cboot(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "???"; VariantName = "[No Variations]"
+Added Component: Designator=Cout1(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout2(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout3(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout4(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout5(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout6(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_5 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=5V-BUCK Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=5V-BUCK Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=NetQ1_5 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=5V-BOOST Pin=C6-2
+Added Pin To Net: NetName=5V-BOOST Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=NetD1_2 Pin=Cboot-2
+Added Pin To Net: NetName=GND Pin=Cout1-1
+Added Pin To Net: NetName=GND Pin=Cout2-1
+Added Pin To Net: NetName=GND Pin=Cout3-1
+Added Pin To Net: NetName=GND Pin=Cout4-1
+Added Pin To Net: NetName=GND Pin=Cout5-1
+Added Pin To Net: NetName=GND Pin=Cout6-1
+Added Pin To Net: NetName=NetQ1_5 Pin=Dboot-1
+Added Pin To Net: NetName=NetQ1_5 Pin=GD1-1
+Added Pin To Net: NetName=NetQ1_5 Pin=IN BUCK-1
+Added Pin To Net: NetName=NetQ1_5 Pin=LDO1-1
+Added Pin To Net: NetName=5V-BUCK Pin=U1-5
+Added Pin To Net: NetName=5V-BOOST Pin=U2-5
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetCboot_2
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD2_1
+Change Net Name : Old Net Name=NetQ1_5 New Net Name=NetC1_1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=C8-1
+Added Pin To Net: NetName=NetC5_2 Pin=GD2-1
+Added Pin To Net: NetName=NetC5_2 Pin=IN BOOST-1
+Added Pin To Net: NetName=NetC5_2 Pin=L2-1
+Added Pin To Net: NetName=NetC5_2 Pin=LDO2-1
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetCboot_1 Pin=Cboot-1
+Added Pin To Net: NetName=NetCboot_1 Pin=Dboot-2
+Added Pin To Net: NetName=NetCboot_1 Pin=GD1-8
+Added Net: Name=NetCboot_1
+Added Pin To Net: NetName=NetCout1_2 Pin=Cout1-2
+Added Pin To Net: NetName=NetCout1_2 Pin=Cout2-2
+Added Pin To Net: NetName=NetCout1_2 Pin=Cout3-2
+Added Pin To Net: NetName=NetCout1_2 Pin=L1-2
+Added Pin To Net: NetName=NetCout1_2 Pin=OUT BUCK-1
+Added Net: Name=NetCout1_2
+Added Pin To Net: NetName=NetCout4_2 Pin=Cout4-2
+Added Pin To Net: NetName=NetCout4_2 Pin=Cout5-2
+Added Pin To Net: NetName=NetCout4_2 Pin=Cout6-2
+Added Pin To Net: NetName=NetCout4_2 Pin=D2-2
+Added Pin To Net: NetName=NetCout4_2 Pin=OUT BOOST-1
+Added Net: Name=NetCout4_2
+Added Member To Class: ClassName=EK2_SMPS Member=Component C1 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C2 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C3 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C4 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C5 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C6 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C7 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C8 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cboot Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout1 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout2 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout3 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout4 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout5 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout6 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Dboot PMEG6020

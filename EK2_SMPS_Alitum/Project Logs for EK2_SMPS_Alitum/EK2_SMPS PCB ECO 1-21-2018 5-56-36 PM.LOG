@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=GD1 NewDesignator=PWM1
+Change Component Designator: OldDesignator=GD2 NewDesignator=PWM2
+Added Member To Class: ClassName=EK2_SMPS Member=Component Q? BSC900N20NS3 G

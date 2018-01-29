@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=PWM1 NewDesignator=PWM BUCK
+Change Component Designator: OldDesignator=PWM2 NewDesignator=PWM BOOST
+Change Net Name : Old Net Name=NetPWM2_1 New Net Name=NetPWM BOOST_1
+Added Member To Class: ClassName=EK2_SMPS Member=Component PWM BOOST BNC
+Added Member To Class: ClassName=EK2_SMPS Member=Component PWM BUCK BNC

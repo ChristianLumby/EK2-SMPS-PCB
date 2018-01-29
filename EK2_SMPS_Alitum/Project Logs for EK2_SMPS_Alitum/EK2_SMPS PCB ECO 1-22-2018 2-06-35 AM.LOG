@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetPWM BOOST_1 Pin=PWM BOOST-1
+Removed Pin From Net: NetName=NetGD1_7 Pin=PWM BUCK-1
+Removed Pin From Net: NetName=NetCb_2 Pin=PWM BUCK-2
+Removed Pin From Net: NetName=NetCb_2 Pin=PWM BUCK-2
+Removed Pin From Net: NetName=NetCb_2 Pin=PWM BUCK-2
+Removed Pin From Net: NetName=NetCb_2 Pin=PWM BUCK-2
+Added Pin To Net: NetName=NetGD2_2 Pin=PWM BOOST-1
+Added Pin To Net: NetName=NetGD1_2 Pin=PWM BUCK-1
+Added Pin To Net: NetName=GND Pin=PWM BUCK-2
+Added Pin To Net: NetName=GND Pin=PWM BUCK-2
+Added Pin To Net: NetName=GND Pin=PWM BUCK-2
+Added Pin To Net: NetName=GND Pin=PWM BUCK-2
+Change Net Name : Old Net Name=NetPWM BOOST_1 New Net Name=NetQ2_4

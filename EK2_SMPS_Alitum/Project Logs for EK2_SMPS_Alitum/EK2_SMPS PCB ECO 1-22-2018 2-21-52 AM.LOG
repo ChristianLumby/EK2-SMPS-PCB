@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetCb_1 Pin=Db-2
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Added Component: Designator=C5(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C10(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cin1(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cin2(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=NetC1_1 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=NetC1_1 Pin=Cin1-1
+Added Pin To Net: NetName=GND Pin=Cin1-2
+Added Pin To Net: NetName=NetC5_2 Pin=Cin2-1
+Added Pin To Net: NetName=GND Pin=Cin2-2
+Change Net Name : Old Net Name=NetC5_2 New Net Name=NetC6_2
+Added Member To Class: ClassName=EK2_SMPS Member=Component C9 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component C10 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cin1 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cin2 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout4 Cap

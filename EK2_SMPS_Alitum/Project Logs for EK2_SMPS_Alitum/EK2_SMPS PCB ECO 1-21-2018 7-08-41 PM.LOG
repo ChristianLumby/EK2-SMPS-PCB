@@ -1,0 +1,50 @@
+Added Component: Designator=R1(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "250K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "250K"; VariantName = "[No Variations]"
+Added Component: Designator=R3(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "250K"; VariantName = "[No Variations]"
+Added Component: Designator=R4(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "250K"; VariantName = "[No Variations]"
+Added Component: Designator=R5(Bourns PTV09A-4215F)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R6(Bourns PTV09A-4215F)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=R3-2
+Added Pin To Net: NetName=5V Pin=R4-2
+Added Net: Name=5V
+Added Pin To Net: NetName=GND Pin=PWM1-2
+Added Pin To Net: NetName=GND Pin=PWM1-4
+Added Pin To Net: NetName=GND Pin=PWM2-2
+Added Pin To Net: NetName=GND Pin=PWM2-4
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetPWM1_1 Pin=PWM1-1
+Added Pin To Net: NetName=NetPWM1_1 Pin=R3-1
+Added Pin To Net: NetName=NetPWM1_1 Pin=R5-1
+Added Net: Name=NetPWM1_1
+Added Pin To Net: NetName=NetPWM1_3 Pin=PWM1-3
+Added Pin To Net: NetName=NetPWM1_3 Pin=R1-2
+Added Net: Name=NetPWM1_3
+Added Pin To Net: NetName=NetPWM2_1 Pin=PWM2-1
+Added Pin To Net: NetName=NetPWM2_1 Pin=R4-1
+Added Pin To Net: NetName=NetPWM2_1 Pin=R6-1
+Added Net: Name=NetPWM2_1
+Added Pin To Net: NetName=NetPWM2_3 Pin=PWM2-3
+Added Pin To Net: NetName=NetPWM2_3 Pin=R2-2
+Added Net: Name=NetPWM2_3
+Added Member To Class: ClassName=EK2_SMPS Member=Component R1 Res1
+Added Member To Class: ClassName=EK2_SMPS Member=Component R2 Res1
+Added Member To Class: ClassName=EK2_SMPS Member=Component R3 Res1
+Added Member To Class: ClassName=EK2_SMPS Member=Component R4 Res1
+Added Member To Class: ClassName=EK2_SMPS Member=Component R5 Res Adj1
+Added Member To Class: ClassName=EK2_SMPS Member=Component R6 Res Adj1

@@ -1,0 +1,78 @@
+Change Component Comment : Designator=PWM1 Old Comment=LTC6992-3 New Comment=LTC6992
+Change Component Comment : Designator=PWM2 Old Comment=LTC6992-3 New Comment=LTC6992
+Change component parameters: Designator = "R3"; Footprint = "6-0805_L"; UniqueID = "\CMDNKSQP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4"; Footprint = "6-0805_L"; UniqueID = "\YBVQUIBK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "150K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5"; Footprint = "Bourns PTV09A-4215F"; UniqueID = "\YRBJPAOK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "20K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6"; Footprint = "Bourns PTV09A-4215F"; UniqueID = "\SKBPJJKT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "20K"; VariantName = "[No Variations]"
+Added Component: Designator=GD1(FAN7371)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GD2(ZXGD3005E6 (Diodes Inc))
+Add component. Clean all parameters for all variants
+Added Component: Designator=Rg1(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "5R"; VariantName = "[No Variations]"
+Added Component: Designator=Rg2(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "5R"; VariantName = "[No Variations]"
+Added Component: Designator=Rg3(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "5R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=D1-2
+Added Pin To Net: NetName=NetQ2_5 Pin=D3-1
+Added Pin To Net: NetName=GND Pin=GD1-4
+Added Pin To Net: NetName=NetQ1_1 Pin=GD1-6
+Added Pin To Net: NetName=GND Pin=GD2-3
+Added Pin To Net: NetName=GND Pin=GND-1
+Added Pin To Net: NetName=NetQ1_1 Pin=L1-1
+Added Pin To Net: NetName=NetQ2_5 Pin=L2-2
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-3
+Change Net Name : Old Net Name=NetQ1_1 New Net Name=NetD1_2
+Change Net Name : Old Net Name=NetQ2_5 New Net Name=NetD3_1
+Added Pin To Net: NetName=5V-BOOST Pin=R4-2
+Added Net: Name=5V-BOOST
+Added Pin To Net: NetName=5V-BUCK Pin=R3-2
+Added Net: Name=5V-BUCK
+Added Pin To Net: NetName=NetGD1_1 Pin=GD1-1
+Added Pin To Net: NetName=NetGD1_1 Pin=PWM1-5
+Added Net: Name=NetGD1_1
+Added Pin To Net: NetName=NetGD1_2 Pin=GD1-2
+Added Pin To Net: NetName=NetGD1_2 Pin=PWM1-6
+Added Net: Name=NetGD1_2
+Added Pin To Net: NetName=NetGD1_7 Pin=GD1-7
+Added Pin To Net: NetName=NetGD1_7 Pin=Rg1-1
+Added Net: Name=NetGD1_7
+Added Pin To Net: NetName=NetGD2_1 Pin=GD2-1
+Added Pin To Net: NetName=NetGD2_1 Pin=PWM2-5
+Added Net: Name=NetGD2_1
+Added Pin To Net: NetName=NetGD2_2 Pin=GD2-2
+Added Pin To Net: NetName=NetGD2_2 Pin=PWM2-6
+Added Net: Name=NetGD2_2
+Added Pin To Net: NetName=NetGD2_4 Pin=GD2-4
+Added Pin To Net: NetName=NetGD2_4 Pin=Rg3-1
+Added Net: Name=NetGD2_4
+Added Pin To Net: NetName=NetGD2_6 Pin=GD2-6
+Added Pin To Net: NetName=NetGD2_6 Pin=Rg2-1
+Added Net: Name=NetGD2_6
+Added Pin To Net: NetName=NetQ1_4 Pin=Q1-4
+Added Pin To Net: NetName=NetQ1_4 Pin=Rg1-2
+Added Net: Name=NetQ1_4
+Added Pin To Net: NetName=NetQ2_4 Pin=Q2-4
+Added Pin To Net: NetName=NetQ2_4 Pin=Rg2-2
+Added Pin To Net: NetName=NetQ2_4 Pin=Rg3-2
+Added Net: Name=NetQ2_4
+Added Member To Class: ClassName=EK2_SMPS Member=Component GD1 FAN7371
+Added Member To Class: ClassName=EK2_SMPS Member=Component GD2 ZXGD3005E6
+Added Member To Class: ClassName=EK2_SMPS Member=Component Rg1 Res1
+Added Member To Class: ClassName=EK2_SMPS Member=Component Rg2 Res1
+Added Member To Class: ClassName=EK2_SMPS Member=Component Rg3 Res1

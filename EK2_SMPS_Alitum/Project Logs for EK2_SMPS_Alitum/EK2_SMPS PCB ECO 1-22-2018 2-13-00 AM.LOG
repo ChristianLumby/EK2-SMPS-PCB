@@ -1,0 +1,22 @@
+Change Component Designator: OldDesignator=Cout4 NewDesignator=Cout5
+Change Component Designator: OldDesignator=Cout5 NewDesignator=Cout6
+Change Component Designator: OldDesignator=Cout6 NewDesignator=Cout7
+Change component parameters: Designator = "Cout3"; Footprint = "6-0805_L"; UniqueID = "\UTOQKHHK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Cout7"; Footprint = "6-0805_L"; UniqueID = "\ECRVSDBJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout4(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=Cout8(6-0805_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Cout4-1
+Added Pin To Net: NetName=NetCout1_2 Pin=Cout4-2
+Added Pin To Net: NetName=GND Pin=Cout8-1
+Added Pin To Net: NetName=NetCout4_2 Pin=Cout8-2
+Change Net Name : Old Net Name=NetCout4_2 New Net Name=NetCout5_2
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout7 Cap
+Added Member To Class: ClassName=EK2_SMPS Member=Component Cout8 Cap

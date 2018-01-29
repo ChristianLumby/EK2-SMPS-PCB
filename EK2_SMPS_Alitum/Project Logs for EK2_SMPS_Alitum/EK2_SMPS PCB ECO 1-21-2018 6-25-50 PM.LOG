@@ -1,0 +1,9 @@
+Added Component: Designator=D1(PMEG6020)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D2(PMEG6020)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D3(PMEG6020)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=EK2_SMPS Member=Component D1 PMEG6020
+Added Member To Class: ClassName=EK2_SMPS Member=Component D2 PMEG6020
+Added Member To Class: ClassName=EK2_SMPS Member=Component D3 PMEG6020

@@ -1,0 +1,15 @@
+Added Component: Designator=GD1(LTC6992)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GD2(LTC6992)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L1(Coilcraft MSS1246-154KL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "150uH"; VariantName = "[No Variations]"
+Added Component: Designator=L2(Coilcraft MSS1246-154KL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "150uH"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=EK2_SMPS Member=Component GD1 LTC6992-3
+Added Member To Class: ClassName=EK2_SMPS Member=Component GD2 LTC6992-3
+Added Member To Class: ClassName=EK2_SMPS Member=Component L1 Coilcraft MSS1246-154KL
+Added Member To Class: ClassName=EK2_SMPS Member=Component L2 Coilcraft MSS1246-154KL
+Added Member To Class: ClassName=EK2_SMPS Member=Component Q? BSC900N20NS3 G

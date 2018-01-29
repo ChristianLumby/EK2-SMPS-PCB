@@ -1,0 +1,2 @@
+Change Component Comment : Designator=OUT BUCK Old Comment=MAX 1A New Comment=MAX 500mA
+Change Component Comment : Designator=IN BUCK Old Comment=MAX 10V New Comment=MAX 20V

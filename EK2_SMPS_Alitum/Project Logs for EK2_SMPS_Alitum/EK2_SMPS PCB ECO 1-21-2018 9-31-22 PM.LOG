@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=J1 NewDesignator=V+ BUCK
+Change Component Designator: OldDesignator=J2 NewDesignator=V+ BOOST
+Change Component Designator: OldDesignator=J3 NewDesignator=GND

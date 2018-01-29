@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetPWM1_1 Pin=R3-1
+Removed Pin From Net: NetName=5V-BUCK Pin=R3-2
+Change Component Footprint: Designator=R5 Old Footprint=BOURNS PTV09A-4215F New Footprint=Bourns PTV09A-4020
+Change Component Footprint: Designator=R6 Old Footprint=BOURNS PTV09A-4215F New Footprint=Bourns PTV09A-4020
+Added Pin To Net: NetName=5V-BUCK Pin=R3-1
+Added Pin To Net: NetName=NetPWM1_1 Pin=R3-2
