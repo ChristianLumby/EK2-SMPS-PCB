@@ -1,0 +1,33 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: EK2_SMPS.PcbDoc   18/02/2018  00.25.02
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : EK2_SMPS.TXT
+ASCII RectHoles File : EK2_SMPS-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.4mm (16mil)                                             Round             2         PTH        1.40mm (0.06inch)
+T2      0.6mm (24mil)                                             Round             8         PTH        164.61mm (6.48inch)
+T3      0.711mm (28mil)                                           Round             16        PTH        173.01mm (6.81inch)
+T4      0.711mm (28mil)                                           Round             14        PTH        249.07mm (9.81inch)
+T5      0.8mm (31mil)                                             Round             40        PTH        380.37mm (14.98inch)
+T6      0.9mm (35mil)                                             Round             6         PTH        61.18mm (2.41inch)
+T7      1.1mm (43mil)                                             Round             8         PTH        84.84mm (3.34inch)
+T8      1.4mm (55mil)                                             Round             8         PTH        65.90mm (2.59inch)
+T9      1.8mm (71mil)                                             Rectangle         4         PTH        77.62mm (3.06inch)
+T10     2.1mm (83mil)                                             Round             5         PTH        220.00mm (8.66inch)
+T11     4.05mm (159mil)                                           Round             5         PTH        226.66mm (8.92inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              116
+
+Two holes at same point : 5
+-----------------------
+2362,3150
+5512,3150
+5512,5512
+3937,5512
+2362,5512
+
+Total Processing Time (hh:mm:ss) : 00.00.01

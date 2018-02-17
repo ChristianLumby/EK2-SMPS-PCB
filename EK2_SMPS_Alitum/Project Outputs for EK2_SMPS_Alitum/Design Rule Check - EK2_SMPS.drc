@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\chris\OneDrive\Documents\DTU\Elektriske kredsløb 2\Hjælpelærer F16-F18\Lab Ex - SMPS\EK2-SMPS-PCB\EK2_SMPS_Alitum\EK2_SMPS.PcbDoc
-Date     : 1/31/2018
-Time     : 7:50:45 PM
+PCB File : C:\Users\Sjefen\OneDrive - Danmarks Tekniske Universitet\Jobb\EK2 TA\EK2-SMPS-PCB\EK2_SMPS_Alitum\EK2_SMPS.PcbDoc
+Date     : 17/02/2018
+Time     : 23.43.25
 
 Processing Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
 Rule Violations :0
@@ -34,7 +34,9 @@ Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.125mm) (All),(All)
-Rule Violations :0
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.125mm) Between Via (90mm,90mm) from Top Layer to Bottom Layer And Pad OUT BOOST-1(90mm,90mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.125mm) Between Via (10mm,90mm) from Top Layer to Bottom Layer And Pad OUT BUCK-1(10mm,90mm) on Multi-Layer Pad/Via Touching Holes
+Rule Violations :2
 
 Processing Rule : Hole To Hole Clearance (Gap=0mm) (InNet('GND') OR InNet('NetC1_1') OR InNet('NetC6_2') OR InNet('NetCout1_2') OR InNet('NetCout5_2')),(All)
 Rule Violations :0
@@ -48,37 +50,13 @@ Rule Violations :0
 Processing Rule : Silk to Silk (Clearance=0.125mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (6.5mm,30mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (10mm,26.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (13.5mm,30mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (7.6mm,27.6mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (90mm,26.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (93.5mm,30mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (87.6mm,32.4mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (87.6mm,27.6mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (92.4mm,27.6mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (92.4mm,32.4mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (90mm,93.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (86.5mm,90mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (90mm,86.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (93.5mm,90mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (87.6mm,92.4mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (92.4mm,87.6mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (92.4mm,92.4mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (10mm,93.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (6.5mm,90mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (10mm,86.5mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (13.5mm,90mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (7.6mm,92.4mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (7.6mm,87.6mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (12.4mm,92.4mm) from Top Layer to Bottom Layer 
-Rule Violations :24
+Processing Rule : Net Antennae (Tolerance=0mm) (Disabled)(All)
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 24
+Violations Detected : 2
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:03

@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=GND Pin=Cout1-1
+Removed Pin From Net: NetName=NetCout1_2 Pin=Cout1-2
+Removed Pin From Net: NetName=GND Pin=Cout2-1
+Removed Pin From Net: NetName=NetCout1_2 Pin=Cout2-2
+Removed Pin From Net: NetName=GND Pin=Cout5-1
+Removed Pin From Net: NetName=NetCout5_2 Pin=Cout5-2
+Removed Pin From Net: NetName=GND Pin=Cout6-1
+Removed Pin From Net: NetName=NetCout5_2 Pin=Cout6-2
+Removed Member From Class: ClassName=EK2_SMPS Member=Cout7
+Removed Member From Class: ClassName=EK2_SMPS Member=Cout8
+Change Component Footprint: Designator=Cin1 Old Footprint=6-0805_L New Footprint=Panasonic56
+Change Component Footprint: Designator=Cin2 Old Footprint=6-0805_L New Footprint=Panasonic56
+Change Component Footprint: Designator=Cout1 Old Footprint=6-0805_L New Footprint=Panasonic56
+Change Component Comment : Designator=Cin1 Old Comment=Cap New Comment=56uF
+Change Component Comment : Designator=Cin2 Old Comment=Cap New Comment=56uF
+Change Component Comment : Designator=Cout1 Old Comment=Cap New Comment=56uF
+Change Component Designator: OldDesignator=Cout3 NewDesignator=Cout2
+Change Component Designator: OldDesignator=Cout4 NewDesignator=Cout3
+Change Component Designator: OldDesignator=Cout7 NewDesignator=Cout5
+Change Component Designator: OldDesignator=Cout8 NewDesignator=Cout6
+Change component parameters: Designator = "Cin1"; Footprint = "Panasonic56"; UniqueID = "\RPYRXKBL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "Cin2"; Footprint = "Panasonic56"; UniqueID = "\NGYHOJKQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "Cout1"; Footprint = "Panasonic56"; UniqueID = "\AHGWHSDO"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=Cout4(Panasonic56)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetCout1_2 Pin=Cout1-1
+Added Pin To Net: NetName=GND Pin=Cout1-2
+Added Pin To Net: NetName=NetCout5_2 Pin=Cout4-1
+Added Pin To Net: NetName=GND Pin=Cout4-2
+Change Net Name : Old Net Name=NetCout1_2 New Net Name=NetCout1_1
+Change Net Name : Old Net Name=NetCout5_2 New Net Name=NetCout4_1
