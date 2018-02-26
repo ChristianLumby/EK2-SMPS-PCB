@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Sjefen\OneDrive - Danmarks Tekniske Universitet\Jobb\EK2 TA\EK2-SMPS-PCB\EK2_SMPS_Alitum\EK2_SMPS.PcbDoc
-Date     : 17/02/2018
-Time     : 23.43.25
+PCB File : C:\Users\chris\OneDrive\Documents\DTU\Elektriske kredsløb 2\Hjælpelærer F16-F18\Lab Ex - SMPS Demo Board\EK2-SMPS-PCB\EK2_SMPS_Alitum\EK2_SMPS.PcbDoc
+Date     : 2/26/2018
+Time     : 2:33:07 PM
 
 Processing Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
 Rule Violations :0
@@ -18,10 +18,10 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.6mm) (InNet('NetC1_1') OR InNet('NetC6_2') OR InNet('GND') OR InNet('NetD2_1') OR InNet('NetCout5_2') OR InNet('NetGD2_6') OR InNet('NetQ2_4') OR InNet('NetGD2_2') OR InNet('NetCb_1') OR  InNet('NetQ1_4') OR InNet('NetQ2_4')OR InNet('NetCout1_2') OR InNet('NetCb_2')  OR InNet('NetGD2_4'))
+Processing Rule : Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.254mm) (All)
+Processing Rule : Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.6mm) (InNet('NetC1_1') OR InNet('NetC6_2') OR InNet('GND') OR InNet('NetD2_1') OR InNet('NetCout5_2') OR InNet('NetGD2_6') OR InNet('NetQ2_4') OR InNet('NetGD2_2') OR InNet('NetCb_1') OR  InNet('NetQ1_4') OR InNet('NetQ2_4')OR InNet('NetCout1_2') OR InNet('NetCb_2')  OR InNet('NetGD2_4'))
 Rule Violations :0
 
 Processing Rule : SMD Neck-Down Constraint (Percent=50%) (Disabled)(All)
@@ -34,8 +34,8 @@ Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.125mm) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (Collision < 0.125mm) Between Via (90mm,90mm) from Top Layer to Bottom Layer And Pad OUT BOOST-1(90mm,90mm) on Multi-Layer Pad/Via Touching Holes
    Violation between Hole To Hole Clearance Constraint: (Collision < 0.125mm) Between Via (10mm,90mm) from Top Layer to Bottom Layer And Pad OUT BUCK-1(10mm,90mm) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.125mm) Between Via (90mm,90mm) from Top Layer to Bottom Layer And Pad OUT BOOST-1(90mm,90mm) on Multi-Layer Pad/Via Touching Holes
 Rule Violations :2
 
 Processing Rule : Hole To Hole Clearance (Gap=0mm) (InNet('GND') OR InNet('NetC1_1') OR InNet('NetC6_2') OR InNet('NetCout1_2') OR InNet('NetCout5_2')),(All)
@@ -59,4 +59,4 @@ Rule Violations :0
 
 Violations Detected : 2
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02

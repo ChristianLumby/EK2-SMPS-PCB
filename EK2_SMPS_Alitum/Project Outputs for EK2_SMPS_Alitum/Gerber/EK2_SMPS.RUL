@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Sjefen\OneDrive - Danmarks Tekniske Universitet\Jobb\EK2 TA\EK2-SMPS-PCB\EK2_SMPS_Alitum\EK2_SMPS.PcbDoc
+DRC Rules Export File for PCB: C:\Users\chris\OneDrive\Documents\DTU\Elektriske kredsløb 2\Hjælpelærer F16-F18\Lab Ex - SMPS Demo Board\EK2-SMPS-PCB\EK2_SMPS_Alitum\EK2_SMPS.PcbDoc
 RuleKind=Clearance|RuleName=Clearance_GND_plane|Scope=Board|Minimum=19.69
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
